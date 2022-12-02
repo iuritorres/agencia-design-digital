@@ -1,0 +1,49 @@
+.banner-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-section-img-div {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    width: 50%;
+}
+
+.banner-section-content {
+    color: var(--blue-800);
+    background-color: var(--white);
+    width: 50%;
+}
+
+.banner-section-text {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 28px;
+}
+
+.banner-section-text p {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-bottom: -5px;
+}
+
+.banner-section-text h2 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-bottom: -8px;
+}   
+
+.banner-section-text span {
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+.dark-image-background {
+    background-color: var(--dark-theme-gray-900);
+}

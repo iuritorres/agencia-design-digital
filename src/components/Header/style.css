@@ -1,0 +1,40 @@
+header {
+    background-color: var(--white);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div img {
+    max-height: 30px;
+}
+
+header div button {
+    border: solid #747272 2px;
+    border-radius: 25px;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div button img {
+    max-width: 20px;
+}
+
+.dark-theme-header {
+    background-color: var(--dark-theme-gray-900);
+}
+
+.theme-button-border {
+    border-color: var(--white);
+}

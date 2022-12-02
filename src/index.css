@@ -12,21 +12,27 @@
 }
 
 :root {
+  /* General */
   --blue-800: #022144;
-
-  --gray-800: #32333c;
-  --gray-600: #8a8fa3;
-  --gray-500: #CCCCCC;
-
-  --white: #fff;
-  --white-primary: #fafbfc;
-  --white-secundary: #f6f8fc;
-
+  --white: #fafbfc;
   --yellow: #feb633;
+
+  /* Light Theme */
+  --light-theme-gray-800: #32333c;
+  --light-theme-gray-600: #8a8fa3;
+  --light-theme-white-primary: #f6f8fc;
+  --light-theme-white-secondary: #fff;
+
+  /* Dark Theme */
+  --dark-theme-gray-500: #CCCCCC;
+  --dark-theme-gray-600: #9f9f9f;
+  --dark-theme-gray-800: #393838;
+  --dark-theme-gray-900: #252525;
 }
 
 body {
-  color: var(black);
+  overflow-x: hidden;
+  color: var(--light-theme-gray-600);
   min-height: 100vh;
 }
 
@@ -34,4 +40,10 @@ button {
   cursor: pointer;
   border: none;
   background-color: transparent;
+}
+
+.limitar-secao {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
 }

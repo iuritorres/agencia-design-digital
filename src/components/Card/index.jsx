@@ -1,13 +1,13 @@
 import './style.css'
 
-export const Card = () => {
+export const Card = (props) => {
     return (
-        <div>
-            <span>JUNHO 2012 - 2016</span>
-            <h3>Web Designer</h3>
-            <h4>Pied Piper StartUp.</h4>
+        <div className={props.theme ? "card dark-background-card" : "card"}>
+            <span className={props.theme ? "dark-text-card" : ""} >{props.data}</span>
+            <h3 className={props.theme ? "dark-text-card-title" : ""} >{props.titulo}</h3>
+            <h4 className={props.theme ? "dark-text-card" : ""} >{props.empresa}</h4>
 
-            <p>Criação de Landing pages, sites institucionais e E-commerces completamente personalizados e otimizados para buscadores</p>
+            <p className={props.theme ? "dark-text-card" : ""} >{props.paragrafo}</p>
         </div>
     )
 };

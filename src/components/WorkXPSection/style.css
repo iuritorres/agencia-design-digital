@@ -1,0 +1,57 @@
+.workxp-section {
+    background-color: var(--light-theme-white-primary);
+    padding: 50px 0;
+}
+
+.div-workxp-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work-content-div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.work-content-div h2 {
+    color: var(--light-theme-gray-800);
+    font-size: 2.4rem;
+}
+
+.work-content-div hr {
+    background-color: var(--yellow);
+    width: 8%;
+    height: 3px;
+    border: none;
+    margin: 16px 0;
+}
+
+.work-content-div p {
+    color: var(--light-theme-gray-600);
+    text-align: center;
+    width: 800px;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+.cards-div {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 16px auto 16px auto;
+}
+
+.dark-background-workxp {
+    background-color: var(--dark-theme-gray-800);
+}
+
+.dark-text-workxp h2,
+.dark-text-workxp p {
+    color: var(--dark-theme-gray-500);
+}
