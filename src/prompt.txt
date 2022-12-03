@@ -1,9 +1,0 @@
-
-
-TEXTO DO RODAPE:
-
-<paragrafo> Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias,
-        ferramentas e tecnologias personalizadas.
-        
-<paragrafo> Copyright 2022 nome do desenvolvedor
-
